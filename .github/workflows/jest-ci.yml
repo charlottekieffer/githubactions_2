@@ -29,4 +29,4 @@ jobs:
         with:
           push: true
           context: "{{defaultContext}}:client"
-          tags: charlottekieffer/quete1902:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/hello-app:latest
